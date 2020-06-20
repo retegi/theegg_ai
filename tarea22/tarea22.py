@@ -47,7 +47,7 @@ def lechero(totalVacas,pesoCamion,pesosVacas,lecheVacas):
 
 # PROGRAMA #
 
-#Datos:
+#Datos(son ejemplos):
 totalVacas=10
 pesoCamion=5000
 pesosVacas=[800,920,850,834,868,872,872,871,817,888]
