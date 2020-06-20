@@ -1,14 +1,17 @@
-        #THE_EGG TAREA21 IÑAKI RETEGI 18/06/2020
+############################################################################
+#### Tarea21 - FRACCIÓN IRREDUCIBLE by Iñaki Retegi (TheEgg) 2020/06/18 ####
+############################################################################
 
-#ALGORITMO
+#ALGORITMO#
+
 def fraccion(decimal):
-    #INICIALIZACIÓN DE DATOS
+    #Inicialización de datos
     start = 1
     stop  = 10000 
     step  = 1
     encontrado = False
 
-    #BÚSQUEDA DE FRACCIÓN IRREDUCIBLE
+    #Busqueda de fracción irreducible
     for dividendo in range(start, stop, step):
         if(encontrado==True):
             break
@@ -23,7 +26,7 @@ def fraccion(decimal):
     if encontrado == False:
         resultado=2
         
-    #RETURN
+    #Return
     if resultado==1:
         return valor
     if resultado==2:
@@ -31,7 +34,8 @@ def fraccion(decimal):
 
                 
 
-#PROGRAMA
+#PROGRAMA#
+
 min=0.0001
 max=0.9999
 
