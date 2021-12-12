@@ -12,7 +12,7 @@ def comprobarDecimalDivision(num):
         print('Ha insertado una división, lo convertiremos a decimal.')
     return contiene_division
 
-#Si se ha insertado una división, se convierte a decimal:
+#se convierte a decimal:
 def convertirADecimal(num):
     lista = num.split("/")
     dividendo=int(lista[0])
@@ -23,6 +23,7 @@ def convertirADecimal(num):
     print('Convertido a decimal:',num)
     return num
 
+#Comprueba si el número insertado está en rango
 def estaDentroDeRango(num):
     num = float(num)
     enrango = (num >= 0.0001 and num <= 0.9999)
