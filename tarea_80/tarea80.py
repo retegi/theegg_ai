@@ -15,8 +15,8 @@ def comprobarDecimalDivision(num):
 #se convierte a decimal:
 def convertirADecimal(num):
     lista = num.split("/")
-    dividendo=int(lista[0])
-    divisor=int(lista[1])
+    dividendo=float(lista[0])
+    divisor=float(lista[1])
     num = dividendo / divisor
     dividendo=0
     divisor=0
