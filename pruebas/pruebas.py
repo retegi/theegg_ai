@@ -1,1 +1,1 @@
-print(abs(round(3.5) - 10))
+print(divmod(5,2))
